@@ -7,13 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-Guest Lecture
+<!-- Guest Lecture
 ------
 {% for post in site.teaching reversed %}
   {% if post.status == "guestlecture" %}
     {% include teaching-single.html %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 Teaching Assistant
 ------

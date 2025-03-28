@@ -14,7 +14,7 @@ author_profile: true
 
 {% assign show_preprints = true %}
 {% if show_preprints %}
-Preprints
+<!-- Preprints
 ------
 {% endif %}
 {% for post in site.publications reversed %}
@@ -35,9 +35,9 @@ Journal Articles
       {% endif %}
     {% endunless %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
-Refereed Conference Papers
+Conference Papers
 ------
 {% for post in site.publications reversed %}
   {% if post.status == "conference"%}
