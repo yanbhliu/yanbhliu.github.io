@@ -13,14 +13,14 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Talks"
-    url: /talks/
+  # - title: "Talks"
+  #   url: /talks/
     
-  - title: "Software"
-    url: "https://github.com/tzuyuan"
+  # - title: "Software"
+  #   url: "https://github.com/tzuyuan"
 
-  - title: "CV"
-    url: /cv/Tzu_Yuan_Justin_cv.pdf
+  # - title: "CV"
+  #   url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
