@@ -25,5 +25,3 @@ links_to_website: ""
 collection: publications
 permalink: /publication/2024-liu-wildfusion
 ---
-
-This is the paper
