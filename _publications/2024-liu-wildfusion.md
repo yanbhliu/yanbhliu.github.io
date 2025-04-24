@@ -21,7 +21,7 @@ include_on_website: true
 image: "/images/wildfusion.png"
 links_to_code: "https://github.com/generalroboticslab/WildFusion"
 links_to_video: ""
-links_to_website: ""
+links_to_website: "http://www.generalroboticslab.com/blogs/blog/2024-09-29-wildfusion/index.html"
 collection: publications
 permalink: /publication/2024-liu-wildfusion
 ---

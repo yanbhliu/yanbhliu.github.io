@@ -19,7 +19,7 @@ awards: ""
 notes: ""
 include_on_website: true
 image: "/images/slam.png"
-links_to_code: 
+links_to_code: ""
 links_to_video: ""
 links_to_website: ""
 collection: publications
