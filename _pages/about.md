@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Ph.D. candidate in the [General Robotics Lab](http://generalroboticslab.com/) at Duke University, advised by [Dr. Boyuan Chen](http://boyuanchen.com/). My research lies at the intersection of **multimodal sensing** and **robotics**. I develop systems that integrate diverse sensory inputs—such as vision, audio, and tactile feedback—to enable adaptive and robust robotic behaviors in complex environments.
+I am a Ph.D. candidate in the [General Robotics Lab](http://generalroboticslab.com/) at Duke University, advised by [Dr. Boyuan Chen](http://boyuanchen.com/). My research lies at the intersection of **multimodal sensing** and **robotics**, specifically developing intelligent systems that integrate diverse sensory inputs—such as vision, audio, and tactile feedback—to enable adaptive and robust robotic behaviors in complex environments.
 
 Prior joining Duke, I earned an M.S. in Electrical Engineering & Computer Science from the University of Michigan and a B.S. in Electrical & Computer Engineering from the Georgia Institute of Technology.
 
