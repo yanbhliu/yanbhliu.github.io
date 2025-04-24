@@ -1,5 +1,4 @@
-# .github/workflows/jekyll.yml
-name: Build and Deploy Jekyll site to Pages
+name: Build Jekyll site
 on:
   push:
     branches: [ "main" ]
@@ -8,13 +7,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4         # latest checkout action
-    - uses: ruby/setup-ruby@v1          # <-- NEW ACTION
-      with:
-        ruby-version: '3.2'             # or '3.1.4' if you need 3.1
-        bundler-cache: true             # installs Bundler and caches gems
-    - run: bundle exec jekyll build -d _site
-    - uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - run: bundle exec jekyll build -d _site
+      - name: Copy site into repo root
+        run: |
+          rm -rf !(._site) .?* || true   # wipe repo except .git and _site
+          shopt -s dotglob
+          mv _site/* .
+          rmdir _site
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Build site for $GITHUB_SHA" || true
+          git push origin HEAD:main
+    permissions:
+      contents: write
