@@ -7,13 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello! I'm a Ph.D. student at Duke University, advised by [Dr. Boyuan Chen](http://boyuanchen.com/). 
+I am a Ph.D. candidate in the [General Robotics Lab](http://generalroboticslab.com/) at Duke University, advised by [Dr. Boyuan Chen](http://boyuanchen.com/). My research lies at the intersection of multimodal sensing and robotics. I develop systems that integrate diverse sensory inputs—such as vision, audio, and tactile feedback—to enable adaptive and robust robotic behaviors in complex environments.
 
-My research lies at the intersection of **multimodal perception** and **robotics**. I’m particularly interested in developing systems that intelligently fuse information from diverse sensory inputs — such as vision, audio, and tactile data — to enable robust and adaptive behavior in the physical world.
-
-Prior to Duke, I earned my **M.S. in EECS** from the **University of Michigan** and my **B.S. in ECE** at the **Georgia Institute of Technology**.
-
-If you find any of my work interesting, feel free to reach out to me at yanbaihui.liu@duke.edu. I'm happy to chat!
+Prior joining Duke, I earned an **M.S. in Electrical Engineering & Computer Science** from the **University of Michigan** and a **B.S. in Electrical & Computer Engineering** from the **Georgia Institute of Technology**.
 
 ## News
 * **[1/2025]** Our paper [WildFusion](http://www.generalroboticslab.com/blogs/blog/2024-09-29-wildfusion/index.html) got accepted by ICRA 2025!
