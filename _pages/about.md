@@ -16,5 +16,5 @@ Prior to Duke, I earned my **M.S. in EECS** from the **University of Michigan** 
 If you find any of my work interesting, feel free to reach out to me at yanbaihui.liu@duke.edu. I'm happy to chat!
 
 ## News
-* **[1/2025]** Our paper [WildFusion](http://www.generalroboticslab.com/blogs/blog/2024-09-29-wildfusion/index.html) got accepted by ICML 2024!
+* **[1/2025]** Our paper [WildFusion](http://www.generalroboticslab.com/blogs/blog/2024-09-29-wildfusion/index.html) got accepted by ICRA 2025!
 * **[8/2023]** Began my PhD journey at Duke University!
