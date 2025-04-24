@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Yanbaihui (Evelyn) Liu"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title_separator          : "-"
 name                     : &name "Yanbaihui (Evelyn) Liu"
 description              : &description ""
