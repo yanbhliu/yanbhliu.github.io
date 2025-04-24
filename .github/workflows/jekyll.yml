@@ -1,19 +1,19 @@
+# .github/workflows/jekyll.yml
 name: Build and Deploy Jekyll site to Pages
 on:
   push:
     branches: [ "main" ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-ruby@v1
+    - uses: actions/checkout@v4         # latest checkout action
+    - uses: ruby/setup-ruby@v1          # <-- NEW ACTION
       with:
-        ruby-version: '3.1'
-    - run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        bundle exec jekyll build -d _site
+        ruby-version: '3.2'             # or '3.1.4' if you need 3.1
+        bundler-cache: true             # installs Bundler and caches gems
+    - run: bundle exec jekyll build -d _site
     - uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
