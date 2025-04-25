@@ -14,7 +14,7 @@ author_profile: true
 
 {% assign show_preprints = true %}
 {% if show_preprints %}
-<!-- Preprints
+Preprints
 ------
 {% endif %}
 {% for post in site.publications reversed %}
@@ -24,7 +24,7 @@ author_profile: true
     {% endif %}
   {% endif %}
 {% endfor %}
-
+<!-- 
 Journal Articles
 ------
 {% for post in site.publications reversed %}
