@@ -1,9 +1,9 @@
 ---
 title: "LAPP: Large Language Model Feedback for Preference-Driven Reinforcement Learning"
-authors: "Pingcheng Jian, Xiao Wei, **Yanbaihui Liu**, Samuel A. Moore, Michael M. Zavlanos, Boyuan Chen"
-venue: "Preprint"
+authors: "Pingcheng Jian, Xiao Wei, Yanbaihui Liu, Samuel A. Moore, Michael M. Zavlanos, Boyuan Chen"
+venue: "arXiv"
 year: "2025"
-status: "in review"
+status: "preprint"
 arxiv: "https://arxiv.org/abs/2504.15472"
 official_link: ""
 doi: ""

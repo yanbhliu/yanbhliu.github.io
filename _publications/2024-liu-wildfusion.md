@@ -1,6 +1,6 @@
 ---
 title: "WildFusion: Multimodal Implicit 3D Reconstructions in the Wild"
-authors: "**Yanbaihui Liu**, Boyuan Chen"
+authors: "Yanbaihui Liu, Boyuan Chen"
 venue: "IEEE International Conference on Robotics and Automation (ICRA)"
 year: "2025"
 status: "conference"

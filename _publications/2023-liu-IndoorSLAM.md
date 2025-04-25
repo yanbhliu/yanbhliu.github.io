@@ -1,6 +1,6 @@
 ---
 title: "Localization and Navigation System for Indoor Mobile Robot"
-authors: "**Yanbaihui Liu**"
+authors: "Yanbaihui Liu"
 venue: International Conference on Materials Science, Machinery and Energy Engineering (MSMEE 2023) 
 year: "2023"
 status: "conference"

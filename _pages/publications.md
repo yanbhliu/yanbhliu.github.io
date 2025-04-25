@@ -24,8 +24,8 @@ Preprints
     {% endif %}
   {% endif %}
 {% endfor %}
-<!-- 
-Journal Articles
+
+<!-- Journal Articles
 ------
 {% for post in site.publications reversed %}
   {% if post.status == "journal"%}
@@ -37,7 +37,7 @@ Journal Articles
   {% endif %}
 {% endfor %} -->
 
-Conference Papers
+Refereed Conference Papers
 ------
 {% for post in site.publications reversed %}
   {% if post.status == "conference"%}
