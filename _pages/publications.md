@@ -25,7 +25,7 @@ Preprints
   {% endif %}
 {% endfor %}
 
-<!-- Journal Articles
+Journal Articles
 ------
 {% for post in site.publications reversed %}
   {% if post.status == "journal"%}
@@ -35,7 +35,7 @@ Preprints
       {% endif %}
     {% endunless %}
   {% endif %}
-{% endfor %} -->
+{% endfor %}
 
 Conference Papers
 ------
