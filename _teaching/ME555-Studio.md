@@ -7,6 +7,6 @@ permalink: /teaching/me555-robot-studio
 venue: "Mechanical Engineering, Duke University"
 instructor: "Dr. Boyuan Chen"
 image: 
-date: 2024-08-01
+date: 2026-01-07
 location: 
 ---
