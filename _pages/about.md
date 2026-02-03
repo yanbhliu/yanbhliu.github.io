@@ -20,7 +20,7 @@ Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Sci
 <div class="robot-projects">
 
 <div class="robot-project-item">
-<p><strong>Robot Studio Course project</strong> — A quadruped robot with parallel leg mechanism.</p>
+<p><strong>Course project</strong> — Quadruped with parallel leg mechanism.</p>
 <img src="/images/robotStudio.gif" alt="Parallel-driven quadruped" />
 </div>
 
