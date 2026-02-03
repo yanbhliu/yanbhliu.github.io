@@ -23,7 +23,13 @@
   }
   .robot-project-item {
     width: 360px;
+    max-width: 360px;
     flex-shrink: 0;
+    box-sizing: border-box;
+  }
+  .robot-project-item p {
+    max-width: 100%;
+    margin-bottom: 0;
   }
   .robot-project-item img {
     width: 360px !important;
