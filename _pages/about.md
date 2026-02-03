@@ -24,10 +24,10 @@ Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Sci
 <img src="/images/robotStudio.gif" alt="Parallel-driven quadruped" />
 </div>
 
-<div class="robot-project-item">
+<!-- <div class="robot-project-item">
 <p><strong>Robot flower</strong> — Reacts to ambient brightness.</p>
 <img src="/images/robotflower.png" alt="Robot flower reacts based on brightness" />
-</div>
+</div> -->
 
 <div class="robot-project-item">
 <p><strong>Senior Design</strong> — Vertical take-off and landing prototype.</p>
