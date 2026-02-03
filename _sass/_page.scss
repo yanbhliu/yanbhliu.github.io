@@ -105,6 +105,22 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  /* robot projects: same-size images, side by side, caption above each */
+  .robot-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+  }
+  .robot-project-item {
+    width: 360px;
+  }
+  .robot-project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0.25em;
+  }
 }
 
 .page__hero {

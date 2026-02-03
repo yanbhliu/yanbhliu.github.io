@@ -11,6 +11,27 @@ I am a Ph.D. candidate in the [General Robotics Lab](http://generalroboticslab.c
 
 Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Science from the University of Michigan, where I worked with [Dr. Maani Ghaffari](https://robotics.umich.edu/people/faculty/maani-ghaffari/) in [CURLY Lab](https://curly.engin.umich.edu/). I also hold a B.S. in Electrical and Computer Engineering from the Georgia Institute of Technology.
 
-## News
+<!-- ## News
 * **[1/2025]** Our paper [WildFusion](http://www.generalroboticslab.com/blogs/blog/2024-09-29-wildfusion/index.html) got accepted by ICRA 2025!
-* **[8/2023]** Began my PhD journey at Duke University!
+* **[8/2023]** Began my PhD journey at Duke University! -->
+
+## Side Projects
+
+<div class="robot-projects">
+
+<div class="robot-project-item">
+**Robot Studio Couse project** — A quadruped robot with parallel leg mechanism.
+![Parallel-driven quadruped](/images/robotStudio.gif)
+</div>
+
+<div class="robot-project-item">
+**Robot flower** — Reacts to ambient brightness.
+![Robot flower reacts based on brightness](/images/robotflower.png)
+</div>
+
+<div class="robot-project-item">
+**Senior Design** — Vertical take-off and landing prototype.
+![Spinning VTOL](/images/Spinning%20VTOL.gif)
+</div>
+
+</div>
