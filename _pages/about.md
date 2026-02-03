@@ -31,7 +31,7 @@ Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Sci
 
 <div class="robot-project-item">
 <p><strong>Senior Design</strong> — Vertical take-off and landing prototype.</p>
-<img src="/images/Spinning%20VTOL.gif" alt="Spinning VTOL" />
+<img src="/images/SpinningVTOL.gif" alt="Spinning VTOL" />
 </div>
 
 </div>
