@@ -15,14 +15,16 @@
     max-width: $x-large;
   }
 
-  /* Side Projects: same-size images (applies on home/single pages) */
+  /* Side Projects: same-size images, always side-by-side (applies on home/single pages) */
   .robot-projects {
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
     flex-wrap: wrap;
-    gap: 2.5em 3em; /* row gap, column gap — more space before right column */
+    gap: 2.5em 3em; /* row gap, column gap */
   }
   .robot-project-item {
-    width: 360px;
+    width: calc(50% - 1.5em); /* half minus half of column gap so two fit in one row */
+    min-width: 280px;
     max-width: 360px;
     flex-shrink: 0;
     box-sizing: border-box;
@@ -32,7 +34,7 @@
     margin-bottom: 0;
   }
   .robot-project-item img {
-    width: 360px !important;
+    width: 100% !important;
     max-width: 100% !important;
     height: 240px !important;
     min-height: 240px;
