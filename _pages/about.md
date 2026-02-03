@@ -20,18 +20,18 @@ Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Sci
 <div class="robot-projects">
 
 <div class="robot-project-item">
-**Robot Studio Couse project** — A quadruped robot with parallel leg mechanism.
-![Parallel-driven quadruped](/images/robotStudio.gif)
+<p><strong>Robot Studio Course project</strong> — A quadruped robot with parallel leg mechanism.</p>
+<img src="/images/robotStudio.gif" alt="Parallel-driven quadruped" />
 </div>
 
 <div class="robot-project-item">
-**Robot flower** — Reacts to ambient brightness.
-![Robot flower reacts based on brightness](/images/robotflower.png)
+<p><strong>Robot flower</strong> — Reacts to ambient brightness.</p>
+<img src="/images/robotflower.png" alt="Robot flower reacts based on brightness" />
 </div>
 
 <div class="robot-project-item">
-**Senior Design** — Vertical take-off and landing prototype.
-![Spinning VTOL](/images/Spinning%20VTOL.gif)
+<p><strong>Senior Design</strong> — Vertical take-off and landing prototype.</p>
+<img src="/images/Spinning%20VTOL.gif" alt="Spinning VTOL" />
 </div>
 
 </div>
