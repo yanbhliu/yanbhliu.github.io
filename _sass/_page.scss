@@ -117,9 +117,10 @@
   }
   .robot-project-item img {
     width: 100%;
-    height: auto;
+    height: 240px;
     display: block;
     margin-top: 0.25em;
+    object-fit: contain;
   }
 }
 
