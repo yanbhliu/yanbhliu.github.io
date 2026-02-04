@@ -20,7 +20,7 @@ Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Sci
 <div class="robot-projects">
 
 <div class="robot-project-item">
-<p><strong>Course project</strong> — Quadruped with parallel leg mechanism.</p>
+<p><strong>Quadruped with parallel leg mechanism.</p>
 <img src="/images/robotStudio.gif" alt="Parallel-driven quadruped" />
 </div>
 
@@ -30,7 +30,7 @@ Before joining Duke, I earned an M.S. in Electrical Engineering and Computer Sci
 </div> -->
 
 <div class="robot-project-item">
-<p><strong>Senior Design</strong> — Vertical take-off and landing prototype.</p>
+<p><strong>Vertical take-off and landing prototype.</p>
 <img src="/images/SpinningVTOL.gif" alt="Spinning VTOL" />
 </div>
 
