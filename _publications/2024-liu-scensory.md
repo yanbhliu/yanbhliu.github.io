@@ -1,5 +1,5 @@
 ---
-title: "Scensory: Automated Real-Time Fungal Identification and Spatial Mapping "
+title: "Scensory: Real-Time Robotic Olfactory Perception for Joint Identification and Source Localization"
 authors: "Yanbaihui Liu, Erica Babusci, Claudia K. Gunsch, Boyuan Chen "
 venue: "arXiv"
 year: "2025"
