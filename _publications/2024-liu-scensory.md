@@ -21,7 +21,7 @@ include_on_website: true
 image: "/images/Scensory_v1.png"
 links_to_code: "https://github.com/generalroboticslab/Scensory"
 links_to_video: ""
-links_to_website: "http://www.generalroboticslab.com/blogs/blog/2025-09-11-scensory/index.html"
+links_to_website: "https://generalroboticslab.com/Scensory"
 collection: publications
 permalink: /publication/2025-liu-Scensory
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Embodied Passive Aeroacoustic Perception Enables Relative Sensing and Pursuit Between Aerial Robots"
 authors: "Yanbaihui Liu, Ravi Prakash, Li-Yu Lo, Nils Roede, Boyuan Chen"
-venue: "Preprint"
+venue: "arXiv"
 year: "2026"
 status: "preprint"
 arxiv: "https://arxiv.org/abs/2608.00401"
