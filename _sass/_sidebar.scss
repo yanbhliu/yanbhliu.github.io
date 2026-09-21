@@ -235,3 +235,47 @@
     }
   }
 }
+
+/* Keep profile links visible on phones instead of hiding them behind "Follow". */
+@include breakpoint(max-width $large) {
+  .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    margin-top: 0.75em;
+    cursor: default;
+
+    button {
+      display: none;
+    }
+  }
+
+  .author__urls {
+    display: flex;
+    position: static;
+    flex-wrap: wrap;
+    gap: 0.15em 1em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
+
+    &:before,
+    &:after {
+      display: none;
+    }
+
+    li {
+      margin: 0;
+      white-space: normal;
+    }
+
+    a {
+      display: inline-block;
+      margin: 0;
+      padding: 0.2em 0;
+      font-size: $type-size-6;
+    }
+  }
+}

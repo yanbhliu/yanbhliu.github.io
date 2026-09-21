@@ -43,6 +43,28 @@
     object-fit: contain;
     box-sizing: border-box;
   }
+
+  /* Stack the original publication layout on narrow screens. */
+  @include breakpoint(max-width $small) {
+    .publication-table,
+    .publication-table tbody,
+    .publication-table tr,
+    .publication-table td {
+      display: block;
+      width: 100% !important;
+    }
+
+    .publication-table td:first-child {
+      padding-bottom: 0;
+    }
+
+    .publication-table img {
+      width: 100% !important;
+      max-width: 240px;
+      height: auto !important;
+      aspect-ratio: 1 / 1;
+    }
+  }
 }
 
 .page {
