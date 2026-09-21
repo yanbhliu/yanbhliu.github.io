@@ -236,24 +236,55 @@
   }
 }
 
-/* Keep profile links visible on phones instead of hiding them behind "Follow". */
-@include breakpoint(max-width $large) {
-  .author__urls-wrapper {
-    display: block;
-    width: 100%;
-    margin-top: 0.75em;
-    cursor: default;
+/* Compact, always-visible profile details on tablets and phones. */
+@media screen and (max-width: 924px) {
+  .sidebar > [itemscope] {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 0 12px;
+    align-items: center;
+  }
 
-    button {
-      display: none;
+  .author__avatar {
+    display: block;
+    width: 48px;
+
+    img,
+    img.author__avatar {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
     }
   }
 
+  .author__content {
+    display: block;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .sidebar .author__name {
+    margin: 0 0 0.2em;
+    font-size: 1rem;
+  }
+
+  .author__bio {
+    font-size: 0.75rem;
+  }
+
+  .author__urls-wrapper {
+    display: block;
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-top: 0.8em;
+    cursor: default;
+  }
+
   .author__urls {
-    display: flex;
+    display: grid !important;
     position: static;
-    flex-wrap: wrap;
-    gap: 0.15em 1em;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.25em 1em;
     margin: 0;
     padding: 0;
     border: 0;
@@ -269,13 +300,14 @@
     li {
       margin: 0;
       white-space: normal;
+      font-size: 0.72rem;
     }
 
     a {
       display: inline-block;
       margin: 0;
       padding: 0.2em 0;
-      font-size: $type-size-6;
+      font-size: 0.72rem;
     }
   }
 }

@@ -85,7 +85,8 @@ author:
   avatar           : "me.jpg"
   bio              : "Ph.D. Candidate"
   employer         : "Duke University"
-  location         : "Durham, NC"
+  department       : "Mechanical Engineering"
+  location         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=690KoEIAAAAJ&hl=en"
   email            : "yanbaihui.liu@duke.edu"

@@ -20,10 +20,12 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li><i class="fas fa-fw fa-university" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% endif %}
+      {% if author.department %}
+        <li><i class="fas fa-fw fa-cogs" aria-hidden="true"></i> {{ author.department }}</li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
