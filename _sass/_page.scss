@@ -44,6 +44,13 @@
     box-sizing: border-box;
   }
 
+  .publication-table img {
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
   /* Stack the original publication layout on narrow screens. */
   @include breakpoint(max-width $small) {
     .publication-table,
